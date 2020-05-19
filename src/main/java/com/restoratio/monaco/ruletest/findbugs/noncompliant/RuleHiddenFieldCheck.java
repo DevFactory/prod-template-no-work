@@ -132,7 +132,7 @@ public class RuleHiddenFieldCheck {
     private static final String privateThree = "EMPTY";
 
     public String publicOne;
-    public static String publicTwo;
+    public static final String publicTwo;
     public static final String publicThree = "EMPTY";
 
     private ByteArrayInputStream stream = new ByteArrayInputStream(new byte[]{1, 2, 3});
