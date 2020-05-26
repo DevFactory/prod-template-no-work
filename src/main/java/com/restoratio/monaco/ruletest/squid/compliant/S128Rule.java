@@ -54,7 +54,9 @@ public final class S128Rule {
                     throw new RuntimeException("Wrapping", e);
                 }
             case 9: // Compliant
-        }
+
+            default:
+                break;        }
 
         return new TestA(false);
     }
